@@ -7,5 +7,6 @@ export default defineConfig({
   assetsInclude: ['**/*.glb'],
   optimizeDeps: {
     include: ['prop-types', 'react-vertical-timeline-component']
-  }
+  },
+  base: process.env.VITE_BASE_PATH || "/3D-Portfolio",
 })
